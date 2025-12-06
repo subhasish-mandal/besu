@@ -1,4 +1,4 @@
-FROM ubuntu:25.04
+FROM ubuntu:questing-20251007
 ARG VERSION="dev"
 ENV NO_PROXY_CACHE="-o Acquire::BrokenProxy=true -o Acquire::http::No-Cache=true -o Acquire::http::Pipeline-Depth=0"
 
